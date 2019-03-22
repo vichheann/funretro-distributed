@@ -3,6 +3,9 @@
   "description": "Retrospective tool",
   "version": "0.0.1",
   "private": false,
+  "engines": {
+    "npm": "6.4.1"
+  },
   "scripts": {
     "jshint": "jshint js/. --exclude js/vendor && stylelint stylesheets/*.scss",
     "deploy": "./deploy.sh",
